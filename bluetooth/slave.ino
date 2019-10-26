@@ -1,5 +1,6 @@
 // https://deneb21.tistory.com/267
 // https://deneb21.tistory.com/311
+// LEFT, RIGHT가 조향용 모터임
 
 # include <SoftwareSerial.h>
 
