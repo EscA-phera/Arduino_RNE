@@ -1,3 +1,5 @@
+// https://deneb21.tistory.com/267
+
 #include <SoftwareSerial.h>
 
 SoftwareSerial HM10(2,3); // TX, RX
