@@ -11,6 +11,7 @@ void setup() {
 
   for (i; i <= 1; i++) {
     HM10.println("AT+CONA**"); // CONA 뒤 '**' 부분에 장비 아두이노의 mac 주소를 ':' 빼고 입력
+                               // etc; 가령 mac 주소가 12:34:56:78:90:12 라고 가정할 때,
                                // etc; AT+CONA123456789012
     delay(2000);
     HM10.println("AT+ROLE1"); // master 지정
@@ -18,7 +19,7 @@ void setup() {
   }
 
   while (1) {
-    HM10.println("l"); // l(left) 무한 반복
+    HM10.println("l"); // l(left) 무한 반복, f = 전진, r = 우회전, s = 정지
   }
 }
 
