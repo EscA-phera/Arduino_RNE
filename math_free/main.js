@@ -38,7 +38,7 @@ document.onclick(function() {
     var keyword = [];
 
     var http = new XMLHttpRequest();
-    var url = "https://www.googleapis.com/customsearch/v1?key=AIzaSyAlhfDF75Ue442kBfAt6UCK2d1rvOuFYYc&cx=000280223126909715527:9gbexgde17z&q=" // + keyword
+    var url = "https://www.googleapis.com/customsearch/v1?key={secret_key}&cx={cx_key}
 
     var imgarr = [];
     var txtArr = [];
